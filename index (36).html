@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamza Ahmed Abdullah</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-size: 18px; /* Base font size */
+            line-height: 1.6; /* Improve readability */
+            margin: 0; /* Remove default margin */
+            height: 100vh; /* Ensure full height of viewport */
+            display: flex; /* Use flexbox */
+            flex-direction: column; /* Arrange content vertically */
+        }
+        header {
+            flex: 1; /* Allow header to grow */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white; /* Text color */
+        }
+        .hero {
+            position: relative; /* Allow positioning for children */
+            z-index: 1; /* Ensure text is above any background */
+        }
+        .hero-content h1 {
+            font-size: 2.5em; /* Large font for name */
+            margin: 0; /* Remove margin */
+        }
+        .hero-content p {
+            font-size: 1.5em; /* Larger font for subtitle */
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            justify-content: center; /* Center nav items */
+            margin: 20px 0; /* Space above/below nav */
+        }
+        nav ul li {
+            margin-right: 20px; /* Space between links */
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+        }
+        /* Style for social media links */
+        .social-media {
+            margin-top: 20px; /* Space above social links */
+            display: flex;
+            justify-content: center; /* Center social media links */
+        }
+        .social-media a {
+            margin: 0 10px; /* Space between social media icons */
+            color: white; /* Set color for icons */
+            text-decoration: none; /* Remove underline */
+        }
+    </style>
+</head>
+<body style="background-image: url('background.jpg'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Hamza Ahmed Abdullah</h1>
+                <p>More than 17-year-old innovator and student from Asko-Addis-Sefer</p>
+            </div>
+        </div>
+        <div class="social-media">
+            <a href="https://www.tiktok.com/@hamza_innovation" target="_blank">TikTok</a>
+            <a href="https://t.me/@Hamza_innovation" target="_blank">Telegram</a>
+            <a href="https://www.instagram.com/hamza_innovator/" target="_blank">Instagram</a>
+            <a href="https://www.facebook.com/hamza.innovation/" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/@Hamza_innovator" target="_blank">YouTube</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="avatar.jpg" alt="Avatar">
+        <p>Welcome to my website! I'm Hamza Ahmed Abdullah, a 17-year-old innovator and student from Asko-Addis-Sefer. As a passionate learner and future leader, I'm dedicated to driving digitalization in Africa. With a strong background in Arduino projects, circuits, and coding, I'm excited to share my projects and services with you. Stay tuned for updates on my journey to make a positive impact in the world!</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project">
+                <img src="project1.jpg" alt="Solar Tracking Robot">
+                <h3>Solar Tracking Robot</h3>
+                <p>Introduction to Solar Tracking Robot project...</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Clap Light">
+                <h3>Clap Light</h3>
+                <p>Introduction to Clap Light project...</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Digital Distance Measurement">
+                <h3>Digital Distance Measurement</h3>
+                <p>Introduction to Digital Distance Measurement project...</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service-grid">
+            <div class="service">
+                <img src="service.jpg" alt="Arduino Projects">
+                <h3>Arduino Projects</h3>
+                <p>I design and develop innovative Arduino projects that solve real-world problems. From robotics to automation, I can help you bring your ideas to life.</p>
+            </div>
+            <div class="service">
+                <img src="service.jpg" alt="Circuits and Electronics">
+                <h3>Circuits and Electronics</h3>
+                <p>With a strong understanding of circuits and electronics, I can help you design and develop custom solutions for your projects.</p>
+            </div>
+            <div class="service">
+                <img src="service.jpg" alt="Coding and Projects">
+                <h3>Coding and Projects</h3>
+                <p>I offer custom coding services for your projects, from scripting to full-stack development. Let's work together to bring your project to life!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <img src="blog.jpg" alt="Blog Image">
+        <p>Coming soon...</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Get in touch with me:</p>
+        <ul>
+            <li><a href="mailto:my_email@example.com">my_email@example.com</a></li>
+            <li><a href="tel:my_phone_number">my_phone_number</a></li>
+            <li><a href="https://www.google.com/maps/search/?api=1&query=Asko+Addis+Sefer" target="_blank">Asko-Addis-Sefer</a></li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Hamza Ahmed Abdullah. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
